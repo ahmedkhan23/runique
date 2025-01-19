@@ -1,4 +1,4 @@
 package com.runique.auth.domain
 
-class MyClass {
+class Test {
 }

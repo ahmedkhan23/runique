@@ -33,10 +33,8 @@ android {
 }
 
 dependencies {
+    implementation(projects.auth.domain)
+    implementation(projects.core.domain)
+    implementation(projects.core.data)
 
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.material)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 }
